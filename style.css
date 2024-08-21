@@ -1,0 +1,207 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.testmonial{
+    background-color: rgb(252, 228, 255);
+    height: 300px;
+    width: 700px;
+    position: absolute;
+    top:150px;
+    left:300px;
+    border-radius: 30px;
+    border: 3px solid rgb(146, 135, 135);   
+}
+.line-bar{
+    margin-top: 15px;
+    height: 5px;
+    width: 100%;
+    background-color: #060916;
+    opacity: 0.5;
+    animation: grow 2s linear infinite;
+    transform-origin: left;
+}
+@keyframes grow{
+    0%{
+        transform:scaleX(0);
+    }
+}
+.fa-quote{
+    top:40px;
+    position: absolute;
+    font-size: 45px;
+    color: #fff;
+    opacity: 0.5;
+   
+}
+.fa-quote-right {
+    left: 30px;
+}
+.fa-quote-left {
+    right: 30px;
+}
+.para {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(133, 130, 130);
+    font-weight: bold;
+    margin-top:40px;
+    text-align: justify;
+    padding: 0px 90px;
+}
+.image{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+  
+}
+.user-image{
+    border-radius: 50%;
+    height: 80px ;
+    width: 80px;
+    border: 3px solid rgb(241, 238, 43);
+    object-fit: cover;
+}
+.user-details{
+margin: 30px 30px;
+font-size: 20px;
+}
+
+@media only screen and (max-width:600px){
+
+.testmonial{
+    background-color: rgb(252, 228, 255);
+    height: 230px;
+    width: 400px;
+    position: absolute;
+    top:30px;
+    left:20px;
+    border-radius: 30px;
+    border: 3px solid rgb(146, 135, 135);   
+}
+
+.line-bar{
+    margin-top: 15px;
+    height: 3px;
+    width: 100%;
+    background-color: #060916;
+    opacity: 0.5;
+    animation: grow 2s linear infinite;
+    transform-origin: left;
+}
+@keyframes grow{
+    0%{
+        transform:scaleX(0);
+    }
+}
+.fa-quote{
+    top:40px;
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    opacity: 0.5;
+   
+}
+.fa-quote-right {
+    left: 30px;
+}
+.fa-quote-left {
+    right: 30px;
+}
+.para {
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(133, 130, 130);
+    font-weight: bold;
+    margin-top:40px;
+    text-align: justify;
+    padding: 0px 90px;
+}
+.image{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 30px;
+  
+}
+.user-image{
+    border-radius: 50%;
+    height: 40px ;
+    width: 40px;
+    border: 3px solid rgb(241, 238, 43);
+    object-fit: cover;
+}
+.user-details{
+margin: 10px 10px;
+font-size: 15px;
+}
+
+}
+@media only screen and (max-width:600px){
+
+.testmonial{
+    background-color: rgb(252, 228, 255);
+    height: 240px;
+    width: 350px;
+    position: absolute;
+    top:30px;
+    border-radius: 30px;
+    border: 3px solid rgb(146, 135, 135);   
+}
+
+.line-bar{
+    margin-top: 15px;
+    height: 3px;
+    width: 100%;
+    background-color: #060916;
+    opacity: 0.5;
+    animation: grow 2s linear infinite;
+    transform-origin: left;
+}
+@keyframes grow{
+    0%{
+        transform:scaleX(0);
+    }
+}
+.fa-quote{
+    top:40px;
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    opacity: 0.5;
+   
+}
+.fa-quote-right {
+    left: 30px;
+}
+.fa-quote-left {
+    right: 30px;
+}
+.para {
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(133, 130, 130);
+    font-weight: bold;
+    margin-top:40px;
+    text-align: justify;
+    padding: 0px 90px;
+}
+.image{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 30px;
+  
+}
+.user-image{
+    border-radius: 50%;
+    height: 40px ;
+    width: 40px;
+    border: 3px solid rgb(241, 238, 43);
+    object-fit: cover;
+}
+.user-details{
+margin: 10px 10px;
+font-size: 15px;
+}
+
+}
